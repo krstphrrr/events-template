@@ -1,0 +1,34 @@
+<!-- <mat-card class="event-card">
+    <img mat-card-image [src]="event.imageUrl" alt="Event image">
+    <mat-card-content>
+      <h2>{{ event.title }}</h2>
+      <p>{{ event.date }}</p>
+      <p>{{ event.description }}</p>
+      <p>{{ event.location }} · {{ event.time }}</p>
+      <p>{{ event.price }}</p>
+    </mat-card-content>
+  </mat-card> -->
+
+  <mat-card class="event-card">
+    <div class="event-card-content">
+      <div class="event-image">
+        <img [src]="event.imageUrl" alt="Event image">
+      </div>
+      <div class="event-details">
+        <div class="event-header">
+          <h2>{{ event.title }}</h2>
+          <button mat-icon-button class="event-favorite">
+            <mat-icon>star_border</mat-icon>
+          </button>
+        </div>
+        <div class="event-date">{{ event.date }}</div>
+        <div class="event-description">{{ event.description }}</div>
+        <div class="event-meta">
+          <span class="event-location">{{ event.location }}</span>
+          <span class="event-time">{{ event.time }}</span>
+          <span class="event-price">{{ event.price }}</span>
+        </div>
+      </div>
+    </div>
+  </mat-card>
+  

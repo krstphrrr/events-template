@@ -1,0 +1,12 @@
+.container {
+    border-radius: 12px;
+    /* padding: 16px; */
+    padding-top: 4em;
+    margin-top: 4em;
+    background: #132742;
+  }
+  
+.tab-container{
+  background-color: #fff;
+   
+}

@@ -1,0 +1,14 @@
+.event-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+    
+  }
+
+  .invisible-list{
+    background-color: #fecbca;
+    padding: 2em;
+    border-radius:12px;
+    height: 500px;
+  }
